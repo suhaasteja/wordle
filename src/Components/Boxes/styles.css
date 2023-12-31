@@ -1,0 +1,24 @@
+.boxes-container {
+    width: max-content;
+    height: max-content;
+    display: grid;
+    align-content: center;
+    border: 0.5px solid black;
+}
+
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
